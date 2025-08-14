@@ -37,6 +37,10 @@ dependencies {
     // --- Lombok (Kod qısaltmaq üçün) ---
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+    implementation("org.springframework.security:spring-security-web:7.0.0-M1")
+    implementation("org.springframework.security:spring-security-core:7.0.0-M1")
+    implementation("org.springframework.security:spring-security-config:7.0.0-M1")
+
 
     // --- Test ---
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
